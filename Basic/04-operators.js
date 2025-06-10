@@ -1,6 +1,9 @@
 //operadores
 
 //operadores aritmeticos
+console.log("----------------------------------------------------------------")
+console.log("operadores aritmeticos")
+console.log("----------------------------------------------------------------")
 
 let a = 5
 let b = 10
@@ -20,6 +23,9 @@ b--//decremento
 console.log(b--)
 
 //Operadores de asignacion
+console.log("----------------------------------------------------------------")
+console.log("operadores asignacion")
+console.log("----------------------------------------------------------------")
 
 let myVariable = 2 //(= es el que asigna)
 console.log(myVariable)
@@ -34,6 +40,9 @@ myVariable %= 2
 myVariable **= 2
 
 //Operadores de comparacion
+console.log("----------------------------------------------------------------")
+console.log("operadores comparacion")
+console.log("----------------------------------------------------------------")
 
 console.log(a>b)
 console.log(a<b)
@@ -50,12 +59,37 @@ console.log(0 == false, '0 ')
 console.log(1 == false, '1 ')
 console.log(2 == false, '2')
 console.log(0 == "")
-console.log(" ")
+console.log(0 == " ")
+console.log(0 == '')
+console.log(0 == "hola")
 
 
+//operadores logicos
+console.log("----------------------------------------------------------------")
+console.log("operadores logicos")
+console.log("----------------------------------------------------------------")
 
 
+//and(&&)
 
+console.log(5>10 && 15>20)
+console.log(5<10 && 15<20)
+console.log(5<10 && 15>20)
+
+//or(||)
+
+console.log(5>10 || 15>20)
+console.log(5<10 || 15<20)
+console.log(5<10 || 15>20)
+
+console.log(5>10 && 15>20 || 30<40)
+
+//not(!)
+
+console.log(!(5>10 && 15>20))
+console.log(!(5>10 || 15>20))
+
+console.log("----------------------------------------------------------------")
 
 
 
