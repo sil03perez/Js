@@ -89,6 +89,15 @@ console.log(5>10 && 15>20 || 30<40)
 console.log(!(5>10 && 15>20))
 console.log(!(5>10 || 15>20))
 
+// Operadores ternarios
+console.log("----------------------------------------------------------------")
+console.log("operadores ternarios")
+console.log("----------------------------------------------------------------")
+
+const isRainig = true
+
+isRainig ? console.log("Esta lloviendo") :console.log("No Esta lloviendo")
+
 console.log("----------------------------------------------------------------")
 
 
