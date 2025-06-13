@@ -40,3 +40,5 @@ let Vart = !true
 Vart ? console.log("hola silvana") : console.log("bye silvana")
 
 // 10. Combina operadores aritméticos, de comparáción y lógicas
+
+console.log(a+b == c && c>a)
